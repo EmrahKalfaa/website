@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "title": "Emrah Kalfa — Teknik Ürün Yöneticisi",
+    "description": "SaaS ve yapay zekâ ürünlerinde 7+ yıllık deneyime sahip Teknik Ürün Yöneticisi. Ürün stratejisi, mühendislik ve teslimatı aynı hedefte buluşturur."
+  },
+  "chrome": {
+    "kicker": "Kariyer dosyası",
+    "year": "2026",
+    "commandHint": "Komut",
+    "langEn": "EN",
+    "langTr": "TR",
+    "skip": "İçeriğe geç"
+  },
+  "nav": {
+    "overview": "Profil",
+    "signals": "Etki",
+    "summary": "Yaklaşım",
+    "highlight": "Başarı",
+    "roadmap": "Deneyim",
+    "architecture": "Yetkinlikler",
+    "education": "Eğitim",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "role": "Teknik Ürün Yöneticisi",
+    "roleAlt": "Product Owner",
+    "location": "İstanbul",
+    "status": "Yeni fırsatlara açık",
+    "email": "E-posta",
+    "linkedin": "LinkedIn",
+    "phone": "Telefon"
+  },
+  "signals": {
+    "items": [
+      { "value": "7+", "label": "Yıllık sektör deneyimi" },
+      { "value": "15+", "label": "Kişilik ekip liderliği" },
+      { "value": "1.", "label": "Hackathon derecesi" },
+      { "value": ".NET → PM", "label": "Teknikten ürüne" }
+    ]
+  },
+  "summary": {
+    "title": "Özet",
+    "body": "Yazılım geliştirme kökenini ürün stratejisiyle birleştiren Teknik Ürün Yöneticisi. SaaS ve yapay zekâ ürünlerinde fikirden pazara çıkışa kadar tüm ürün yaşam döngüsünü yönetir; 15+ kişilik çok disiplinli ekipleri ortak hedefler etrafında buluşturur. .NET, mobil geliştirme ve yazılım mimarisi geçmişi sayesinde iş ihtiyaçlarını uygulanabilir teknik kararlara dönüştürür. Önceliklendirme, paydaş yönetimi ve veriye dayalı kararlarla ölçülebilir ürün değeri üretmeye odaklanır."
+  },
+  "highlight": {
+    "kicker": "Başarı",
+    "title": "Birincilik — Anti Coup Hackathon",
+    "body": "Cumhurbaşkanlığı tarafından düzenlenen hackathonda geliştirme ekibine liderlik ederek birincilik elde etti. Ekip, sosyal olaylara ilişkin kamuoyu eğilimini Twitter verileri üzerinden duygu analizi modelleriyle inceleyen ve sonuçları gerçek zamanlı grafiklerle sunan yapay zekâ destekli bir psikolojik analiz sistemi geliştirdi."
+  },
+  "experience": {
+    "kicker": "İş geçmişi",
+    "title": "Mühendislikten ürün liderliğine",
+    "companies": [
+      {
+        "name": "Arbalet & Emakin",
+        "location": "İstanbul, Türkiye",
+        "note": "Emakin bünyesinde teknik liderlikten ürün yönetimine uzanan kariyer gelişimi.",
+        "roles": [
+          {
+            "title": "Teknik Ürün Yöneticisi",
+            "period": "08/2025 — Günümüz",
+            "current": true,
+            "bullets": [
+              "Arbalet AI Agent Geliştirme Platformu’nun ürün stratejisini ve teknik uygulama sürecini yönetiyor.",
+              "Platform vizyonunu pazar ihtiyaçları, kullanıcı beklentileri ve teknik olanaklar doğrultusunda şekillendiriyor.",
+              "Ürün backlog’unu iş değeri, yatırım getirisi ve kullanıcı geri bildirimlerine göre önceliklendiriyor; sprint planlamasını koordine ediyor.",
+              "15+ kişilik çok disiplinli ekibin ürün hedefleri doğrultusunda birlikte çalışmasını sağlıyor.",
+              "Kullanıcı araştırmaları ve rekabet analizlerinden elde edilen içgörüleri ürün kararlarına dönüştürüyor."
+            ]
+          },
+          {
+            "title": "Kıdemli Backend Geliştirici",
+            "period": "12/2024 — 08/2025",
+            "current": false,
+            "bullets": [
+              "Emakin BPM ve Arbalet ürünlerinin temel geliştirme ekiplerinde görev aldı.",
+              ".NET 8 ve C# ile dinamik veri yapılarını destekleyen ölçeklenebilir backend altyapıları tasarladı.",
+              "Yüksek veri hacimlerine uygun PostgreSQL şemaları oluşturdu ve sorgu performansını iyileştirdi.",
+              "Docker tabanlı konteynerleştirme ile dağıtım süreçlerinin tutarlılığını artırdı.",
+              "Frontend ekipleriyle birlikte güvenilir ve sürdürülebilir RESTful API’ler geliştirdi."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Know YourX",
+        "location": "İstanbul, Türkiye",
+        "note": "",
+        "roles": [
+          {
+            "title": "Product Owner",
+            "period": "02/2024 — 09/2024",
+            "current": false,
+            "bullets": [
+              "Sprint planlama ve backlog yönetimi süreçlerini yürüterek kritik özelliklerin zamanında teslim edilmesini destekledi.",
+              "Yayın öncesi kullanılabilirlik ve kaliteyi doğrulamak üzere kullanıcı kabul testlerini planladı ve gerçekleştirdi.",
+              "Ürün kararlarını verimlilik, kârlılık ve şirket hedefleri doğrultusunda şekillendirdi.",
+              "İş birimleri ile teknik ekip arasındaki iletişimi netleştiren süreç akışları ve gereksinim dokümanları hazırladı."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Apphere.co",
+        "location": "İstanbul, Türkiye",
+        "note": "",
+        "roles": [
+          {
+            "title": "Startup Danışmanı",
+            "period": "09/2023 — 06/2024",
+            "current": false,
+            "bullets": [
+              "Ekibin çevik çalışma pratiklerini benimsemesine ve sprint planlama disiplinini geliştirmesine danışmanlık verdi.",
+              "Müşteri ihtiyaçlarını geliştirme ekibi için açık ve uygulanabilir teknik gereksinimlere dönüştürdü.",
+              "Önceliklendirme ve kaynak planlama kararlarıyla ekibin odağını ve üretkenliğini güçlendirdi."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DDTECH",
+        "location": "İstanbul, Türkiye",
+        "note": "",
+        "roles": [
+          {
+            "title": "PMO Başkanı",
+            "period": "08/2023 — 02/2024",
+            "current": false,
+            "bullets": [
+              "Ön satıştan canlı kullanım sonrası desteğe uzanan proje yönetimi standartlarını kurdu.",
+              "Birden fazla projeden oluşan portföyü yönetti; teslimatları kârlılık ve stratejik değere göre önceliklendirdi.",
+              "Proje risklerini erken aşamada belirleyerek uygulanabilir azaltma planları geliştirdi.",
+              "Ekip gelişimini destekleyen eğitim ve performans değerlendirme süreçlerini tasarladı."
+            ]
+          },
+          {
+            "title": "Teknik Proje Yöneticisi",
+            "period": "03/2023 — 08/2023",
+            "current": false,
+            "bullets": [
+              "Kurumsal müşteriler için geliştirilen kimlik doğrulama projelerinde çok disiplinli ekipleri yönetti.",
+              "Müşteri beklentilerini, kapsamı ve teknik kısıtları dengede tutarak kritik sorunların çözümünü koordine etti.",
+              "Kaynak kısıtlarının yaşandığı dönemlerde Android ve backend geliştirmeye doğrudan katkı sağlayarak teslimat planını korudu."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BoBu",
+        "location": "İstanbul, Türkiye",
+        "note": "",
+        "roles": [
+          {
+            "title": "Kıdemli Geliştirici & Takım Lideri",
+            "period": "01/2023 — 03/2023",
+            "current": false,
+            "bullets": [
+              "Yazılım ekibine teknik liderlik ve mentorluk sağladı; ekip içi gelişimi destekledi.",
+              "Şirketin ürün yönünü belirleyen oyun konseptleri ve Oyun Tasarım Dokümanları hazırladı."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recos Games",
+        "location": "İstanbul, Türkiye",
+        "note": "",
+        "roles": [
+          {
+            "title": "Kurucu Ortak & Takım Lideri",
+            "period": "06/2020 — 11/2022",
+            "current": false,
+            "bullets": [
+              "Şirket vizyonunu ve ürün yönünü belirledi; yasal süreçler, iş ortaklıkları ve operasyon dahil girişim yaşam döngüsünü yönetti.",
+              "Oyun projelerinin mimari tasarım, geliştirme ve test süreçlerine uçtan uca liderlik etti."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "kicker": "Yetkinlikler",
+    "title": "Ürün bakışı, mühendislik derinliği",
+    "layers": [
+      {
+        "id": "01",
+        "name": "Ürün",
+        "items": [
+          "Ürün stratejisi & yol haritası",
+          "Agile / Scrum / Kanban",
+          "SDLC",
+          "Pazara çıkış stratejisi (GTM)",
+          "KPI & OKR",
+          "Paydaş yönetimi",
+          "UAT",
+          "Risk yönetimi",
+          "Maliyet/fayda analizi",
+          "Ürün keşfi",
+          "Kullanıcı hikâyeleri",
+          "Kabul kriterleri",
+          "Backlog iyileştirme"
+        ]
+      },
+      {
+        "id": "02",
+        "name": ".NET",
+        "items": ["C#", ".NET 8", ".NET Core", "ASP.NET Web API"]
+      },
+      {
+        "id": "03",
+        "name": "Mimari",
+        "items": [
+          "Mikroservis mimarisi",
+          "Monolitten mikroservise geçiş",
+          "REST API tasarımı",
+          "OOP",
+          "SOLID",
+          "Temiz kod",
+          "Tasarım kalıpları"
+        ]
+      },
+      {
+        "id": "04",
+        "name": "Mobil & oyun",
+        "items": ["Android (Kotlin/Java)", "Oyun tasarım dokümanları"]
+      },
+      {
+        "id": "05",
+        "name": "Veri",
+        "items": ["PostgreSQL", "İleri düzey şema tasarımı", "SQL", "NoSQL"]
+      },
+      {
+        "id": "06",
+        "name": "DevOps",
+        "items": ["Docker", "CI/CD kavramları", "Git"]
+      },
+      {
+        "id": "07",
+        "name": "Yapay zekâ",
+        "items": ["Yapay zekâ ürün yaşam döngüsü", "İş akışı otomasyonu", "AI agent yetkinlikleri"]
+      },
+      {
+        "id": "08",
+        "name": "Araçlar",
+        "items": ["Jira", "Azure", "Confluence", "MS Project", "Postman", "Figma"]
+      }
+    ]
+  },
+  "education": {
+    "kicker": "Eğitim",
+    "degree": "Lisans — Yazılım Mühendisliği",
+    "school": "Maltepe Üniversitesi, İstanbul",
+    "period": "06/2023"
+  },
+  "contact": {
+    "kicker": "Sonraki adım",
+    "title": "Birlikte değer üretelim.",
+    "body": "Ürün stratejisi ile teknik gerçekliği aynı masada buluşturan roller ve iş birlikleri için iletişime geçin.",
+    "email": "E-posta",
+    "linkedin": "LinkedIn",
+    "phone": "Ara",
+    "pdf": "PDF özgeçmişi indir"
+  },
+  "command": {
+    "placeholder": "Bölüme git, dil değiştir veya işlem seç…",
+    "empty": "Eşleşme yok",
+    "groupNav": "Bölümler",
+    "groupActions": "İşlemler",
+    "switchToEn": "İngilizceye geç",
+    "switchToTr": "Türkçeye geç",
+    "copyEmail": "E-postayı kopyala",
+    "copied": "Kopyalandı",
+    "downloadPdf": "PDF özgeçmişi indir",
+    "openLinkedin": "LinkedIn’i aç",
+    "close": "Kapat"
+  }
+}

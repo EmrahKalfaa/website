@@ -1,0 +1,80 @@
+type Role = {
+  title: string;
+  period: string;
+  current: boolean;
+  bullets: string[];
+};
+
+type Company = {
+  name: string;
+  location: string;
+  note: string;
+  roles: Role[];
+};
+
+export function Roadmap({
+  title,
+  companies,
+}: {
+  title: string;
+  companies: Company[];
+}) {
+  return (
+    <div>
+      <p className="max-w-xl text-2xl font-medium tracking-tight text-ink md:text-3xl">
+        {title}
+      </p>
+
+      <ol className="mt-12 space-y-0">
+        {companies.map((company) => (
+          <li key={company.name} className="relative pl-6 md:pl-8">
+            <span className="absolute top-2 left-0 h-2 w-2 rounded-full bg-amber" />
+            <span className="absolute top-4 left-[3px] h-[calc(100%-8px)] w-px bg-line" />
+
+            <div className="pb-12 md:pb-16">
+              <div className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+                <h3 className="text-xl font-medium tracking-tight md:text-2xl">
+                  {company.name}
+                </h3>
+                <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-muted">
+                  {company.location}
+                </p>
+              </div>
+              {company.note ? (
+                <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
+                  {company.note}
+                </p>
+              ) : null}
+
+              <div className="mt-6 space-y-8">
+                {company.roles.map((role) => (
+                  <article key={`${company.name}-${role.title}`}>
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                      <h4 className="font-medium text-ink">{role.title}</h4>
+                      <p className="font-mono text-[11px] tracking-[0.08em] text-faint">
+                        {role.period}
+                        {role.current ? (
+                          <span className="ml-2 text-amber">●</span>
+                        ) : null}
+                      </p>
+                    </div>
+                    <ul className="mt-3 space-y-2">
+                      {role.bullets.map((bullet) => (
+                        <li
+                          key={bullet}
+                          className="max-w-2xl text-sm leading-relaxed text-muted"
+                        >
+                          {bullet}
+                        </li>
+                      ))}
+                    </ul>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}

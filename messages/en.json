@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "title": "Emrah Kalfa — Technical Product Manager",
+    "description": "Technical Product Manager with 7+ years of experience across SaaS and AI products, connecting product strategy, engineering, and delivery."
+  },
+  "chrome": {
+    "kicker": "Career dossier",
+    "year": "2026",
+    "commandHint": "Command",
+    "langEn": "EN",
+    "langTr": "TR",
+    "skip": "Skip to content"
+  },
+  "nav": {
+    "overview": "Profile",
+    "signals": "Impact",
+    "summary": "Approach",
+    "highlight": "Achievement",
+    "roadmap": "Experience",
+    "architecture": "Capabilities",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "Technical Product Manager",
+    "roleAlt": "Product Owner",
+    "location": "Istanbul",
+    "status": "Open to new opportunities",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "phone": "Phone"
+  },
+  "signals": {
+    "items": [
+      { "value": "7+", "label": "Years in the industry" },
+      { "value": "15+", "label": "Cross-functional team" },
+      { "value": "1st", "label": "Hackathon placement" },
+      { "value": ".NET → PM", "label": "Engineering to product" }
+    ]
+  },
+  "summary": {
+    "title": "Summary",
+    "body": "Technical Product Manager who combines a software engineering foundation with product strategy. Leads SaaS and AI products across the full lifecycle—from discovery and prioritization to delivery and go-to-market—while aligning cross-functional teams of 15+ around clear outcomes. A background in .NET, mobile development, and software architecture helps turn business needs into practical technical decisions. Focused on creating measurable product value through disciplined prioritization, stakeholder alignment, and evidence-based decisions."
+  },
+  "highlight": {
+    "kicker": "Accomplishment",
+    "title": "First Place — Anti Coup Hackathon",
+    "body": "Led the development team to first place at a hackathon organized by the Presidency of Türkiye. The team built an AI-powered psychological analysis system that evaluated public sentiment around social events using emotion models on Twitter data and presented the results through real-time visualizations."
+  },
+  "experience": {
+    "kicker": "Work history",
+    "title": "From engineering to product leadership",
+    "companies": [
+      {
+        "name": "Arbalet & Emakin",
+        "location": "Istanbul, Turkey",
+        "note": "Progressed from technical leadership to product management within Emakin.",
+        "roles": [
+          {
+            "title": "Technical Product Manager",
+            "period": "08/2025 — Present",
+            "current": true,
+            "bullets": [
+              "Own product strategy and technical execution for Arbalet, an AI agent development platform.",
+              "Shape the platform vision around market needs, user expectations, and technical capabilities.",
+              "Prioritize the product backlog by business value, return on investment, and user feedback while coordinating sprint planning.",
+              "Align a cross-functional team of 15+ around shared product outcomes.",
+              "Turn insights from user research and competitive analysis into focused product decisions."
+            ]
+          },
+          {
+            "title": "Senior Backend Developer",
+            "period": "12/2024 — 08/2025",
+            "current": false,
+            "bullets": [
+              "Contributed to the core engineering teams behind Emakin BPM and Arbalet.",
+              "Designed scalable backend services in .NET 8 and C# to support dynamic data structures.",
+              "Created PostgreSQL schemas for high-volume data and improved query performance.",
+              "Introduced Docker-based containerization to make deployments more consistent.",
+              "Partnered with frontend teams to build reliable, maintainable RESTful APIs."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Know YourX",
+        "location": "Istanbul, Turkey",
+        "note": "",
+        "roles": [
+          {
+            "title": "Product Owner",
+            "period": "02/2024 — 09/2024",
+            "current": false,
+            "bullets": [
+              "Led sprint planning and backlog management to support the timely delivery of critical features.",
+              "Planned and conducted user acceptance testing to validate usability and quality before release.",
+              "Shaped product decisions around operational efficiency, profitability, and company goals.",
+              "Created process flows and requirements documentation that kept business and engineering aligned."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Apphere.co",
+        "location": "Istanbul, Turkey",
+        "note": "",
+        "roles": [
+          {
+            "title": "Startup Consultant",
+            "period": "09/2023 — 06/2024",
+            "current": false,
+            "bullets": [
+              "Helped the team adopt Agile practices and establish a more disciplined sprint planning process.",
+              "Translated client needs into clear, actionable technical requirements for the development team.",
+              "Improved team focus and productivity through prioritization and resource planning guidance."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DDTECH",
+        "location": "Istanbul, Turkey",
+        "note": "",
+        "roles": [
+          {
+            "title": "Head of Project Management Office",
+            "period": "08/2023 — 02/2024",
+            "current": false,
+            "bullets": [
+              "Established project management standards spanning pre-sales through post-launch support.",
+              "Managed a multi-project portfolio and prioritized delivery by profitability and strategic value.",
+              "Identified project risks early and developed practical mitigation plans.",
+              "Designed training and performance review processes that supported team development."
+            ]
+          },
+          {
+            "title": "Technical Project Manager",
+            "period": "03/2023 — 08/2023",
+            "current": false,
+            "bullets": [
+              "Led cross-functional teams delivering identity verification systems for enterprise clients.",
+              "Balanced client expectations, scope, and technical constraints while coordinating the resolution of critical issues.",
+              "Contributed directly to Android and backend development during resource constraints to protect delivery timelines."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BoBu",
+        "location": "Istanbul, Turkey",
+        "note": "",
+        "roles": [
+          {
+            "title": "Senior Developer & Team Leader",
+            "period": "01/2023 — 03/2023",
+            "current": false,
+            "bullets": [
+              "Provided technical leadership and mentorship to support the software team’s growth.",
+              "Created game concepts and Game Design Documents that shaped the company’s product direction."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recos Games",
+        "location": "Istanbul, Turkey",
+        "note": "",
+        "roles": [
+          {
+            "title": "Co-Founder & Team Leader",
+            "period": "06/2020 — 11/2022",
+            "current": false,
+            "bullets": [
+              "Defined the company vision and product direction while managing operations, legal processes, and partnerships.",
+              "Led game projects end to end, from architecture and development through testing and delivery."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "kicker": "Capabilities",
+    "title": "Product perspective, engineering depth",
+    "layers": [
+      {
+        "id": "01",
+        "name": "Product",
+        "items": [
+          "Product strategy & roadmaps",
+          "Agile / Scrum / Kanban",
+          "SDLC",
+          "Go-to-market strategy",
+          "KPI & OKR",
+          "Stakeholder management",
+          "UAT",
+          "Risk management",
+          "Cost-benefit analysis",
+          "Product discovery",
+          "User stories",
+          "Acceptance criteria",
+          "Backlog refinement"
+        ]
+      },
+      {
+        "id": "02",
+        "name": ".NET",
+        "items": ["C#", ".NET 8", ".NET Core", "ASP.NET Web API"]
+      },
+      {
+        "id": "03",
+        "name": "Architecture",
+        "items": [
+          "Microservice architecture",
+          "Monolith-to-microservice migration",
+          "REST API design",
+          "OOP",
+          "SOLID",
+          "Clean code",
+          "Design patterns"
+        ]
+      },
+      {
+        "id": "04",
+        "name": "Mobile & game",
+        "items": ["Android (Kotlin/Java)", "Game design documents"]
+      },
+      {
+        "id": "05",
+        "name": "Data",
+        "items": ["PostgreSQL", "Advanced schema design", "SQL", "NoSQL"]
+      },
+      {
+        "id": "06",
+        "name": "DevOps",
+        "items": ["Docker", "CI/CD concepts", "Git"]
+      },
+      {
+        "id": "07",
+        "name": "AI",
+        "items": ["AI product lifecycle", "Workflow automation", "AI agent capabilities"]
+      },
+      {
+        "id": "08",
+        "name": "Tools",
+        "items": ["Jira", "Azure", "Confluence", "MS Project", "Postman", "Figma"]
+      }
+    ]
+  },
+  "education": {
+    "kicker": "Education",
+    "degree": "Bachelor of Science — Software Engineering",
+    "school": "Maltepe University, Istanbul",
+    "period": "06/2023"
+  },
+  "contact": {
+    "kicker": "Next step",
+    "title": "Let’s build meaningful products.",
+    "body": "Get in touch about roles and collaborations that bring product strategy and technical reality to the same table.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "phone": "Call",
+    "pdf": "Download PDF résumé"
+  },
+  "command": {
+    "placeholder": "Jump to a section, switch language, or choose an action…",
+    "empty": "No matches",
+    "groupNav": "Navigate",
+    "groupActions": "Actions",
+    "switchToEn": "Switch to English",
+    "switchToTr": "Switch to Turkish",
+    "copyEmail": "Copy email",
+    "copied": "Copied",
+    "downloadPdf": "Download PDF résumé",
+    "openLinkedin": "Open LinkedIn",
+    "close": "Close"
+  }
+}
