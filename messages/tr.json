@@ -4,7 +4,7 @@
     "description": "SaaS ve yapay zekâ ürünlerinde 7+ yıllık deneyime sahip Teknik Ürün Yöneticisi. Ürün stratejisi, mühendislik ve teslimatı aynı hedefte buluşturur."
   },
   "chrome": {
-    "kicker": "Kariyer dosyası",
+    "kicker": "Özgeçmiş",
     "year": "2026",
     "commandHint": "Komut",
     "langEn": "EN",
@@ -12,30 +12,29 @@
     "skip": "İçeriğe geç"
   },
   "nav": {
-    "overview": "Profil",
-    "signals": "Etki",
-    "summary": "Yaklaşım",
-    "highlight": "Başarı",
-    "roadmap": "Deneyim",
-    "architecture": "Yetkinlikler",
+    "overview": "Genel Bakış",
+    "signals": "Kariyer Özeti",
+    "summary": "Profesyonel Profil",
+    "highlight": "Öne Çıkan Başarı",
+    "roadmap": "İş Deneyimi",
+    "architecture": "Uzmanlık Alanları",
     "education": "Eğitim",
     "contact": "İletişim"
   },
   "hero": {
     "role": "Teknik Ürün Yöneticisi",
-    "roleAlt": "Product Owner",
+    "roleAlt": "Product Owner · Yazılım Mühendisi",
     "location": "İstanbul",
     "status": "Yeni fırsatlara açık",
     "email": "E-posta",
-    "linkedin": "LinkedIn",
-    "phone": "Telefon"
+    "linkedin": "LinkedIn"
   },
   "signals": {
     "items": [
-      { "value": "7+", "label": "Yıllık sektör deneyimi" },
-      { "value": "15+", "label": "Kişilik ekip liderliği" },
-      { "value": "1.", "label": "Hackathon derecesi" },
-      { "value": ".NET → PM", "label": "Teknikten ürüne" }
+      { "value": "7+", "label": "Yıl sektör deneyimi" },
+      { "value": "15+", "label": "Kişilik ekip yönetimi" },
+      { "value": "1.", "label": "Hackathon birinciliği" },
+      { "value": ".NET → PM", "label": "Mühendislikten yönetime" }
     ]
   },
   "summary": {
@@ -48,8 +47,8 @@
     "body": "Cumhurbaşkanlığı tarafından düzenlenen hackathonda geliştirme ekibine liderlik ederek birincilik elde etti. Ekip, sosyal olaylara ilişkin kamuoyu eğilimini Twitter verileri üzerinden duygu analizi modelleriyle inceleyen ve sonuçları gerçek zamanlı grafiklerle sunan yapay zekâ destekli bir psikolojik analiz sistemi geliştirdi."
   },
   "experience": {
-    "kicker": "İş geçmişi",
-    "title": "Mühendislikten ürün liderliğine",
+    "kicker": "İş Deneyimi",
+    "title": "Profesyonel deneyim",
     "companies": [
       {
         "name": "Arbalet & Emakin",
@@ -180,8 +179,8 @@
     ]
   },
   "skills": {
-    "kicker": "Yetkinlikler",
-    "title": "Ürün bakışı, mühendislik derinliği",
+    "kicker": "Uzmanlık Alanları",
+    "title": "Ürün yönetimi ve teknik yetkinlikler",
     "layers": [
       {
         "id": "01",
@@ -254,12 +253,11 @@
     "period": "06/2023"
   },
   "contact": {
-    "kicker": "Sonraki adım",
-    "title": "Birlikte değer üretelim.",
-    "body": "Ürün stratejisi ile teknik gerçekliği aynı masada buluşturan roller ve iş birlikleri için iletişime geçin.",
+    "kicker": "İletişim",
+    "title": "İletişime geçin.",
+    "body": "Profesyonel fırsatlar ve iş birlikleri hakkında görüşmek için e-posta veya LinkedIn üzerinden ulaşabilirsiniz.",
     "email": "E-posta",
     "linkedin": "LinkedIn",
-    "phone": "Ara",
     "pdf": "PDF özgeçmişi indir"
   },
   "command": {

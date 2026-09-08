@@ -1,15 +1,15 @@
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
-import { Architecture } from "@/components/dossier/Architecture";
-import { Contact } from "@/components/dossier/Contact";
-import { DossierShell } from "@/components/dossier/DossierShell";
-import { Education } from "@/components/dossier/Education";
-import { Hero } from "@/components/dossier/Hero";
-import { Highlight } from "@/components/dossier/Highlight";
-import { JsonLd } from "@/components/dossier/JsonLd";
-import { Roadmap } from "@/components/dossier/Roadmap";
-import { Section } from "@/components/dossier/Section";
-import { Signals } from "@/components/dossier/Signals";
-import type { NavItem } from "@/components/dossier/IndexRail";
+import { Architecture } from "@/components/resume/Architecture";
+import { Contact } from "@/components/resume/Contact";
+import { Education } from "@/components/resume/Education";
+import { Hero } from "@/components/resume/Hero";
+import { Highlight } from "@/components/resume/Highlight";
+import { JsonLd } from "@/components/resume/JsonLd";
+import { Roadmap } from "@/components/resume/Roadmap";
+import { Section } from "@/components/resume/Section";
+import { Signals } from "@/components/resume/Signals";
+import { ResumeShell } from "@/components/resume/ResumeShell";
+import type { NavItem } from "@/components/resume/IndexRail";
 import type { Locale } from "@/i18n/routing";
 
 type Props = {
@@ -35,7 +35,7 @@ export default async function HomePage({ params }: Props) {
   ];
 
   return (
-    <DossierShell
+    <ResumeShell
       command={messages.command}
       commandHint={t("chrome.commandHint")}
       kicker={t("chrome.kicker")}
@@ -51,7 +51,6 @@ export default async function HomePage({ params }: Props) {
           emailLabel={t("hero.email")}
           linkedinLabel={t("hero.linkedin")}
           location={t("hero.location")}
-          phoneLabel={t("hero.phone")}
           role={t("hero.role")}
           roleAlt={t("hero.roleAlt")}
           status={t("hero.status")}
@@ -99,11 +98,10 @@ export default async function HomePage({ params }: Props) {
             email={t("contact.email")}
             linkedin={t("contact.linkedin")}
             pdf={t("contact.pdf")}
-            phone={t("contact.phone")}
             title={t("contact.title")}
           />
         </Section>
       </main>
-    </DossierShell>
+    </ResumeShell>
   );
 }

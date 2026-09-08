@@ -4,7 +4,7 @@
     "description": "Technical Product Manager with 7+ years of experience across SaaS and AI products, connecting product strategy, engineering, and delivery."
   },
   "chrome": {
-    "kicker": "Career dossier",
+    "kicker": "Professional résumé",
     "year": "2026",
     "commandHint": "Command",
     "langEn": "EN",
@@ -12,30 +12,29 @@
     "skip": "Skip to content"
   },
   "nav": {
-    "overview": "Profile",
-    "signals": "Impact",
-    "summary": "Approach",
-    "highlight": "Achievement",
-    "roadmap": "Experience",
-    "architecture": "Capabilities",
+    "overview": "Overview",
+    "signals": "Career Highlights",
+    "summary": "Professional Summary",
+    "highlight": "Featured Achievement",
+    "roadmap": "Work Experience",
+    "architecture": "Areas of Expertise",
     "education": "Education",
     "contact": "Contact"
   },
   "hero": {
     "role": "Technical Product Manager",
-    "roleAlt": "Product Owner",
+    "roleAlt": "Product Owner · Software Engineer",
     "location": "Istanbul",
     "status": "Open to new opportunities",
     "email": "Email",
-    "linkedin": "LinkedIn",
-    "phone": "Phone"
+    "linkedin": "LinkedIn"
   },
   "signals": {
     "items": [
-      { "value": "7+", "label": "Years in the industry" },
-      { "value": "15+", "label": "Cross-functional team" },
-      { "value": "1st", "label": "Hackathon placement" },
-      { "value": ".NET → PM", "label": "Engineering to product" }
+      { "value": "7+", "label": "Years of experience" },
+      { "value": "15+", "label": "Team members led" },
+      { "value": "1st", "label": "Hackathon winner" },
+      { "value": ".NET → PM", "label": "Engineering to management" }
     ]
   },
   "summary": {
@@ -48,8 +47,8 @@
     "body": "Led the development team to first place at a hackathon organized by the Presidency of Türkiye. The team built an AI-powered psychological analysis system that evaluated public sentiment around social events using emotion models on Twitter data and presented the results through real-time visualizations."
   },
   "experience": {
-    "kicker": "Work history",
-    "title": "From engineering to product leadership",
+    "kicker": "Work Experience",
+    "title": "Professional experience",
     "companies": [
       {
         "name": "Arbalet & Emakin",
@@ -180,8 +179,8 @@
     ]
   },
   "skills": {
-    "kicker": "Capabilities",
-    "title": "Product perspective, engineering depth",
+    "kicker": "Areas of Expertise",
+    "title": "Product management and technical expertise",
     "layers": [
       {
         "id": "01",
@@ -254,12 +253,11 @@
     "period": "06/2023"
   },
   "contact": {
-    "kicker": "Next step",
-    "title": "Let’s build meaningful products.",
-    "body": "Get in touch about roles and collaborations that bring product strategy and technical reality to the same table.",
+    "kicker": "Contact",
+    "title": "Get in touch.",
+    "body": "For professional opportunities and collaborations, reach out by email or LinkedIn.",
     "email": "Email",
     "linkedin": "LinkedIn",
-    "phone": "Call",
     "pdf": "Download PDF résumé"
   },
   "command": {
