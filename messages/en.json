@@ -260,6 +260,12 @@
     "linkedin": "LinkedIn",
     "pdf": "Download PDF résumé"
   },
+  "pdfDialog": {
+    "title": "Choose résumé language",
+    "en": "English",
+    "tr": "Turkish",
+    "close": "Close"
+  },
   "command": {
     "placeholder": "Jump to a section, switch language, or choose an action…",
     "empty": "No matches",

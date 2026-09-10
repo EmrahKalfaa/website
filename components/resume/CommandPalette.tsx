@@ -6,6 +6,7 @@ import { usePathname, useRouter } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
 import { site, type SectionId } from "@/lib/site";
 import type { NavItem } from "./IndexRail";
+import { usePdfDownload } from "./PdfDownloadDialog";
 
 type CommandCopy = {
   placeholder: string;
@@ -48,6 +49,7 @@ export function CommandPalette({
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const openPdfDialog = usePdfDownload();
 
   const items = useMemo<Item[]>(() => {
     const navItems: Item[] = nav.map((item) => ({
@@ -85,8 +87,8 @@ export function CommandPalette({
         group: "actions",
         label: copy.downloadPdf,
         run: () => {
-          window.location.href = site.pdf;
           onClose();
+          openPdfDialog();
         },
       },
       {
@@ -104,7 +106,7 @@ export function CommandPalette({
     const q = query.trim().toLowerCase();
     if (!q) return all;
     return all.filter((item) => item.label.toLowerCase().includes(q));
-  }, [nav, copy, locale, pathname, router, onJump, onClose, query, copied]);
+  }, [nav, copy, locale, pathname, router, onJump, onClose, openPdfDialog, query, copied]);
 
   useEffect(() => {
     if (open) {

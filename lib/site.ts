@@ -4,7 +4,10 @@ export const site = {
   linkedin: "https://www.linkedin.com/in/emrahkalfa/",
   linkedinLabel: "linkedin.com/in/emrahkalfa",
   location: "Istanbul, 34080",
-  pdf: "/Emrah_Kalfa_Resume_PO_2026_Eng.pdf",
+  pdf: {
+    en: "/Emrah_Kalfa_Resume_PO_2026_Eng.pdf",
+    tr: "/Emrah_Kalfa_Resume_PO_2026_TR.pdf",
+  },
 } as const;
 
 export const sectionIds = [

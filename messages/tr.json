@@ -260,6 +260,12 @@
     "linkedin": "LinkedIn",
     "pdf": "PDF özgeçmişi indir"
   },
+  "pdfDialog": {
+    "title": "Özgeçmiş dilini seçin",
+    "en": "İngilizce",
+    "tr": "Türkçe",
+    "close": "Kapat"
+  },
   "command": {
     "placeholder": "Bölüme git, dil değiştir veya işlem seç…",
     "empty": "Eşleşme yok",

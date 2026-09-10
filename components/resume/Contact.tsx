@@ -1,4 +1,7 @@
+"use client";
+
 import { site } from "@/lib/site";
+import { usePdfDownload } from "./PdfDownloadDialog";
 
 type Props = {
   title: string;
@@ -9,6 +12,8 @@ type Props = {
 };
 
 export function Contact({ title, body, email, linkedin, pdf }: Props) {
+  const openPdfDialog = usePdfDownload();
+
   return (
     <div>
       <p className="max-w-xl text-3xl font-medium tracking-tight text-ink md:text-4xl">
@@ -33,14 +38,14 @@ export function Contact({ title, body, email, linkedin, pdf }: Props) {
           <span className="text-muted">{linkedin}</span>
           <span className="text-ink">{site.linkedinLabel}</span>
         </a>
-        <a
-          className="group flex items-center justify-between border border-amber/40 bg-amber-soft px-4 py-3 text-amber transition-colors hover:border-amber"
-          download
-          href={site.pdf}
+        <button
+          className="group flex w-full items-center justify-between border border-amber/40 bg-amber-soft px-4 py-3 text-left text-amber transition-colors hover:border-amber"
+          onClick={openPdfDialog}
+          type="button"
         >
           <span>{pdf}</span>
           <span aria-hidden>↓</span>
-        </a>
+        </button>
       </div>
     </div>
   );

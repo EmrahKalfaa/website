@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { SectionId } from "@/lib/site";
 import { CommandPalette } from "./CommandPalette";
 import { IndexRail, type NavItem } from "./IndexRail";
+import { PdfDownloadContext, PdfDownloadDialog } from "./PdfDownloadDialog";
 
 type Props = {
   nav: NavItem[];
@@ -49,6 +50,8 @@ export function ResumeShell({
 }: Props) {
   const [active, setActive] = useState<SectionId>("overview");
   const [paletteOpen, setPaletteOpen] = useState(false);
+  const [pdfOpen, setPdfOpen] = useState(false);
+  const openPdfDialog = useCallback(() => setPdfOpen(true), []);
 
   const jump = useCallback((id: SectionId) => {
     const el = document.getElementById(id);
@@ -88,14 +91,14 @@ export function ResumeShell({
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = paletteOpen ? "hidden" : "";
+    document.body.style.overflow = paletteOpen || pdfOpen ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
     };
-  }, [paletteOpen]);
+  }, [paletteOpen, pdfOpen]);
 
   return (
-    <>
+    <PdfDownloadContext.Provider value={openPdfDialog}>
       <a
         className="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-50 focus:bg-amber focus:px-3 focus:py-2 focus:text-canvas"
         href="#overview"
@@ -126,7 +129,9 @@ export function ResumeShell({
         open={paletteOpen}
       />
 
+      <PdfDownloadDialog onClose={() => setPdfOpen(false)} open={pdfOpen} />
+
       <div className="relative z-10 md:pl-56 lg:pl-64">{children}</div>
-    </>
+    </PdfDownloadContext.Provider>
   );
 }
