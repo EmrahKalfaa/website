@@ -19,6 +19,7 @@
     "roadmap": "İş Deneyimi",
     "architecture": "Uzmanlık Alanları",
     "education": "Eğitim",
+    "volunteer": "Gönüllülük",
     "contact": "İletişim"
   },
   "hero": {
@@ -251,6 +252,59 @@
     "degree": "Lisans — Yazılım Mühendisliği",
     "school": "Maltepe Üniversitesi, İstanbul",
     "period": "06/2023"
+  },
+  "volunteer": {
+    "title": "Topluluk ve gönüllü çalışmalar",
+    "body": "Google Developer Student Clubs ve Bilişim Vadisi bünyesinde kampüs etkinlikleri, bölgesel mentorluk ve oyun–girişim programları yürüttü.",
+    "speakingTitle": "Üniversite konuşmaları",
+    "speaking": "Farklı üniversitelerde yazılım geliştirme, oyun geliştirme ve ekip yönetimi konularında konuşmalar gerçekleştirdi; ürün geliştirme ve ekip liderliği deneyimini öğrencilerle paylaştı.",
+    "empty": "Gönüllü etkinlik görselleri burada yer alacak.",
+    "gallery": "Gönüllü etkinlik galerisi",
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "orgs": [
+      {
+        "name": "Developer Student Clubs Turkey",
+        "location": "Türkiye · MENA",
+        "note": "Kampüs liderliğinden MENA bölgesinde oyun ve girişim mentorluğuna uzanan topluluk rolü.",
+        "roles": [
+          {
+            "title": "Gaming & Startup Mentoru — MENA Bölgesi",
+            "period": "09/2021 — 09/2022",
+            "bullets": [
+              "MENA bölgesindeki 100’den fazla üniversiteden liderlere ve ekiplere oyun ve girişim projelerinde mentorluk verdi.",
+              "Google topluluk standartlarına uygun etkinlikleri planladı ve yürüttü; sorumluluğundaki 10 üniversitede organizatör, jüri ve mentor olarak yer aldı.",
+              "Sürdürülebilir kalkınma hedefleri ve Google teknolojilerine odaklanan Solution Challenge kuluçka programını tasarladı; program için sponsor görüşmelerini yürüttü.",
+              "DSC Turkey ve Bilişim Vadisi ile oyun girişimlerine yönelik kamp ve programları planlayıp uyguladı."
+            ]
+          },
+          {
+            "title": "Kampüs Lideri",
+            "period": "09/2020 — 09/2021",
+            "bullets": [
+              "Google topluluk standartlarına uygun kampüs etkinlikleri, atölyeler, hackathonlar ve study jam’ler düzenledi.",
+              "Öğrencileri kulüp faaliyetlerine dahil ederek kampüs içi katılımı artırdı.",
+              "Google teknolojileriyle ürün geliştiren öğrenci ekiplerine liderlik etti ve proje süreçlerinde mentorluk verdi.",
+              "Kulüp üyelerine pratik bakış kazandırmak üzere akademisyenler ve sektör profesyonelleriyle iş birliği yaptı."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bilişim Vadisi DIGIAGE",
+        "location": "Kocaeli, Türkiye",
+        "note": "",
+        "roles": [
+          {
+            "title": "Oyun Geliştirme Mentoru",
+            "period": "02/2022",
+            "bullets": [
+              "Bilişim Vadisi DIGIAGE programında oyun geliştirme alanında katılımcılara mentorluk verdi."
+            ]
+          }
+        ]
+      }
+    ]
   },
   "contact": {
     "kicker": "İletişim",

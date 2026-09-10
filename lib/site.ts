@@ -18,6 +18,7 @@ export const sectionIds = [
   "roadmap",
   "architecture",
   "education",
+  "volunteer",
   "contact",
 ] as const;
 

@@ -19,6 +19,7 @@
     "roadmap": "Work Experience",
     "architecture": "Areas of Expertise",
     "education": "Education",
+    "volunteer": "Volunteer",
     "contact": "Contact"
   },
   "hero": {
@@ -251,6 +252,59 @@
     "degree": "Bachelor of Science — Software Engineering",
     "school": "Maltepe University, Istanbul",
     "period": "06/2023"
+  },
+  "volunteer": {
+    "title": "Community and volunteer work",
+    "body": "Led campus and regional programs with Google Developer Student Clubs and Bilişim Vadisi—organizing events, mentoring student teams, and supporting gaming and startup initiatives.",
+    "speakingTitle": "University talks",
+    "speaking": "Spoke at universities on software development, game development, and team management, sharing practical experience from building products and leading teams.",
+    "empty": "Photos from volunteer events will appear here.",
+    "gallery": "Volunteer event gallery",
+    "prev": "Previous",
+    "next": "Next",
+    "orgs": [
+      {
+        "name": "Developer Student Clubs Turkey",
+        "location": "Turkey · MENA",
+        "note": "Progressed from campus leadership to regional mentorship across gaming and startups.",
+        "roles": [
+          {
+            "title": "Gaming & Startup Mentor — MENA Region",
+            "period": "09/2021 — 09/2022",
+            "bullets": [
+              "Mentored leaders and teams from 100+ universities across the MENA region on gaming and startup projects.",
+              "Planned and ran Google community events to community standards, including as organizer, jury member, and mentor at 10 universities.",
+              "Designed the Solution Challenge incubation program around sustainable development goals and Google technologies, including sponsor negotiations for funding.",
+              "Ran gaming startup camps and programs with DSC Turkey and Bilişim Vadisi."
+            ]
+          },
+          {
+            "title": "Campus Leader",
+            "period": "09/2020 — 09/2021",
+            "bullets": [
+              "Organized campus events to Google community standards, including workshops, hackathons, and study jams.",
+              "Recruited and engaged students, growing participation across the campus community.",
+              "Led student product work using Google technologies and mentored members through project challenges.",
+              "Brought faculty and industry practitioners in to share practical insight with club members."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bilişim Vadisi DIGIAGE",
+        "location": "Kocaeli, Turkey",
+        "note": "",
+        "roles": [
+          {
+            "title": "Game Development Mentor",
+            "period": "02/2022",
+            "bullets": [
+              "Mentored participants in game development during a Bilişim Vadisi DIGIAGE program."
+            ]
+          }
+        ]
+      }
+    ]
   },
   "contact": {
     "kicker": "Contact",

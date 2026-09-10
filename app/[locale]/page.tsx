@@ -9,6 +9,7 @@ import { Roadmap } from "@/components/resume/Roadmap";
 import { Section } from "@/components/resume/Section";
 import { Signals } from "@/components/resume/Signals";
 import { ResumeShell } from "@/components/resume/ResumeShell";
+import { Volunteer } from "@/components/resume/Volunteer";
 import type { NavItem } from "@/components/resume/IndexRail";
 import type { Locale } from "@/i18n/routing";
 
@@ -31,7 +32,8 @@ export default async function HomePage({ params }: Props) {
     { id: "roadmap", index: "05", label: t("nav.roadmap") },
     { id: "architecture", index: "06", label: t("nav.architecture") },
     { id: "education", index: "07", label: t("nav.education") },
-    { id: "contact", index: "08", label: t("nav.contact") },
+    { id: "volunteer", index: "08", label: t("nav.volunteer") },
+    { id: "contact", index: "09", label: t("nav.contact") },
   ];
 
   return (
@@ -92,7 +94,21 @@ export default async function HomePage({ params }: Props) {
           />
         </Section>
 
-        <Section id="contact" index="08" label={t("nav.contact")}>
+        <Section id="volunteer" index="08" label={t("nav.volunteer")}>
+          <Volunteer
+            body={t("volunteer.body")}
+            empty={t("volunteer.empty")}
+            gallery={t("volunteer.gallery")}
+            next={t("volunteer.next")}
+            orgs={messages.volunteer.orgs}
+            prev={t("volunteer.prev")}
+            speaking={t("volunteer.speaking")}
+            speakingTitle={t("volunteer.speakingTitle")}
+            title={t("volunteer.title")}
+          />
+        </Section>
+
+        <Section id="contact" index="09" label={t("nav.contact")}>
           <Contact
             body={t("contact.body")}
             email={t("contact.email")}
