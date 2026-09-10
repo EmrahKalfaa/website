@@ -11,6 +11,7 @@ import { Signals } from "@/components/resume/Signals";
 import { ResumeShell } from "@/components/resume/ResumeShell";
 import type { NavItem } from "@/components/resume/IndexRail";
 import type { Locale } from "@/i18n/routing";
+import { Analytics } from "@vercel/analytics/next"
 
 type Props = {
   params: Promise<{ locale: Locale }>;
