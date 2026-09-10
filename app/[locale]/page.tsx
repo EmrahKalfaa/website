@@ -97,11 +97,8 @@ export default async function HomePage({ params }: Props) {
         <Section id="volunteer" index="08" label={t("nav.volunteer")}>
           <Volunteer
             body={t("volunteer.body")}
-            empty={t("volunteer.empty")}
             gallery={t("volunteer.gallery")}
-            next={t("volunteer.next")}
             orgs={messages.volunteer.orgs}
-            prev={t("volunteer.prev")}
             speaking={t("volunteer.speaking")}
             speakingTitle={t("volunteer.speakingTitle")}
             title={t("volunteer.title")}

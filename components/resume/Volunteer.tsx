@@ -1,5 +1,5 @@
 import { volunteerMedia } from "@/lib/volunteer";
-import { VolunteerSlider } from "./VolunteerSlider";
+import { VolunteerGallery } from "./VolunteerGallery";
 
 type Role = {
   title: string;
@@ -19,20 +19,14 @@ export function Volunteer({
   body,
   speakingTitle,
   speaking,
-  empty,
   gallery,
-  prev,
-  next,
   orgs,
 }: {
   title: string;
   body: string;
   speakingTitle: string;
   speaking: string;
-  empty: string;
   gallery: string;
-  prev: string;
-  next: string;
   orgs: Org[];
 }) {
   return (
@@ -43,13 +37,7 @@ export function Volunteer({
       <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">{body}</p>
 
       <div className="mt-10">
-        <VolunteerSlider
-          empty={empty}
-          gallery={gallery}
-          media={volunteerMedia}
-          next={next}
-          prev={prev}
-        />
+        <VolunteerGallery gallery={gallery} media={volunteerMedia} />
       </div>
 
       <ol className="mt-12 space-y-0">
